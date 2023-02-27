@@ -1,0 +1,7 @@
+::v-deep .u-subsection {
+    height: 40px;
+    background-color: #fff;
+}
+.phone_style {
+    flex: 0 !important;
+}

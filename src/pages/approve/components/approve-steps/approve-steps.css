@@ -1,0 +1,35 @@
+/* 审批流-描述文本 */
+.u-text__desc {
+    text-decoration: none;
+    font-weight: normal;
+    overflow-wrap: normal;
+    font-size: 12px;
+    color: #909193;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-overflow: ellipsis;
+    align-items: center;
+}
+
+/* 审批流-图标 */
+.slot-icon_warning {
+    border-radius: 100%;
+    background-color: #f9ae3d;
+    padding: 4px;
+}
+
+.slot-icon_yes {
+    border-radius: 100%;
+    background-color: #5ac725;
+    padding: 4px;
+}
+.slot-icon_reject {
+    border-radius: 100%;
+    background-color: #ff4949;
+    padding: 4px;
+}
+
+::v-deep .u-steps-item__content {
+    margin-left: 15px !important;
+}

@@ -1,0 +1,18 @@
+::v-deep .u-subsection {
+    height: 40px;
+    background-color: #fff;
+}
+.section-card{
+    border: 0.55px solid #F1F1F1;
+    border-radius: 6px;
+    background: #ffffff;
+}
+.title-text{
+    width: 100px;
+    color: #989898;
+}
+
+.title-content{
+    padding: 0px 8px;
+    color: #989898;
+}

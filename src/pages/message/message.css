@@ -1,0 +1,19 @@
+.Tips{
+    display: flex;
+    padding: 0 24px;
+    font-weight: 600;
+    position: relative;
+
+}
+.con{
+    padding: 5px 50px;
+}
+.date{
+    padding: 5px 50px;
+}
+
+.badge{
+    position: absolute;
+    top:5px ;
+    left: 40px;
+}

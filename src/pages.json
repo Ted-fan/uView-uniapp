@@ -1,0 +1,90 @@
+{
+  "easycom": {
+    "^u-(.*)": "uview-ui/components/u-$1/u-$1.vue"
+  },
+  "pages": [
+    //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+    {
+      "path": "pages/login/login",
+      "style": {
+        "navigationBarTitleText": "登录",
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/home/home",
+      "style": {
+        "navigationStyle": "custom",
+        "enablePullDownRefresh": true
+      }
+    },
+    {
+      "path": "pages/approve/approve",
+      "style": {
+        "navigationBarTitleText": "审批中心",
+        "enablePullDownRefresh": true
+      }
+    },
+    {
+      "path": "pages/approve/cost-contract/cost-contract",
+      "style": {
+        "navigationBarTitleText": "审批详情"
+      }
+    },
+    {
+      "path": "pages/message/message",
+      "style": {
+        "navigationBarTitleText": "消息"
+      }
+    },
+    {
+      "path": "pages/message/message-list/message-list",
+      "style": {
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/mine/mine",
+      "style": {
+        "navigationStyle": "custom"
+      }
+    }
+  ],
+  "tabBar": {
+    "color": "#000000",
+    "selectedColor": "#000000",
+    "borderStyle": "white",
+    "backgroundColor": "#ffffff",
+    "list": [{
+        "pagePath": "pages/home/home",
+        "iconPath": "static/images/tabbar/home_off.png",
+        "selectedIconPath": "static/images/tabbar/home_on.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/approve/approve",
+        "iconPath": "static/images/tabbar/approve_off.png",
+        "selectedIconPath": "static/images/tabbar/approve_on.png",
+        "text": "审批中心"
+      },
+      {
+        "pagePath": "pages/message/message",
+        "iconPath": "static/images/tabbar/message_off.png",
+        "selectedIconPath": "static/images/tabbar/message_on.png",
+        "text": "消息"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "iconPath": "static/images/tabbar/mine_off.png",
+        "selectedIconPath": "static/images/tabbar/mine_on.png",
+        "text": "个人中心"
+      }
+    ]
+  },
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  }
+}

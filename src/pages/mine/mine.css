@@ -1,0 +1,11 @@
+.btn {
+  width: 60%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 50px;
+}
+.icon-15 {
+  width: 15px;
+  height: 15px;
+}
