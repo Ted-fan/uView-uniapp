@@ -1,19 +1,25 @@
-# my-project
+# uView+uniapp
 
-## Project setup
+## 安装
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+### 运行
 ```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
+npm run dev:h5
+帐号:admin
+密码:111111
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### 集成功能
+#### 1.页面跳转与传参
+#### 2.VueX
+#### 3.Mock数据
+#### 4.tab组件
+#### 5.http请求
+#### 6.文件上传与下载
+#### 7.uView
+#### 8.极光推送
+#### 9.storage存储
+
